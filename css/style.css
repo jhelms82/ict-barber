@@ -998,7 +998,14 @@ blockquote cite:before {
     color: #14100c;
 }
 .nav-scroll .logo-img {
-    width: 110px;
+    width: 15%;
+}
+
+.nav-scroll {
+    position: fixed;
+
+    width: 100%;
+    z-index: 10; /* This ensures the navbar stays on top of other elements */
 }
 .nav-scroll .logo-img {
     margin-bottom: 0px;
@@ -1030,6 +1037,8 @@ blockquote cite:before {
 .logo-wrapper {
     float: left;
 }
+
+
 .logo-wrapper .logo h2 {
     font-family: 'Outfit', sans-serif;
     font-size: 27px;
@@ -1062,7 +1071,7 @@ blockquote cite:before {
     padding: 0;
 }
 .logo-img {
-    width: 120px;
+    width: 15%;
     margin-bottom: 0px;
 }
 .dropdown .nav-link i {
@@ -1167,8 +1176,8 @@ blockquote cite:before {
     }
     .nav-scroll .logo {}
     .logo-img {
-        margin-bottom: 0px;
-        width: 120px;
+        width: 10%;
+   
     }
     .navbar button {
         margin-right: 0px;
