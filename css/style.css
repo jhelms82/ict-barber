@@ -1033,8 +1033,7 @@ blockquote cite:before {
     line-height: 1em;
     text-transform: uppercase;
 }
-.nav-scroll .logo-wrapper {}
-.logo-wrapper {
+.nav-scroll .logo-wrapper .logo-wrapper {
     float: left;
 }
 
@@ -1071,7 +1070,7 @@ blockquote cite:before {
     padding: 0;
 }
 .logo-img {
-    width: 15%;
+    width: 12%;
     margin-bottom: 0px;
 }
 .dropdown .nav-link i {
