@@ -1057,13 +1057,13 @@ blockquote cite:before {
 .logo-wrapper .logo span {
     display: block;
     font-family: 'Outfit', sans-serif;
-    font-size: 12px;
-    color: #91765a;
-    font-weight: 400;
+    font-size: 15px;
+    color: #ab4b18;
+    font-weight: 800;
     letter-spacing: 4px;
     display: block;
     margin-top: 0px;
-    line-height: 1em;
+    line-height: 1.5em;
     text-transform: uppercase;
 }
 .logo {
@@ -1173,7 +1173,16 @@ blockquote cite:before {
         text-align: left;
         margin-left: 0px;
     }
-    .nav-scroll .logo {}
+
+    .navbar .logo-img {
+        height: 100%;
+        width: auto;
+    }
+    .nav-scroll .logo-img {
+        max-height: 30px; /* Adjust this value as needed */
+        width: auto;
+    }
+    .nav-scroll .logo 
     .logo-img {
         width: 10%;
    
@@ -5797,7 +5806,7 @@ a.link-btn span {
 
 .footer-explore-list li a:hover {
     padding-left: 15px;
-    color: #14100c);
+    color: #14100c;
 }
 
 .footer-explore-list li a:before {
