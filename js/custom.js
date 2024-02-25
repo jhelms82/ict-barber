@@ -40,6 +40,12 @@ $(function () {
         onPageChange: null, // function(pageIndex) that is called when page is changed
         topOffset: -70 // offste (in px) for fixed top navigation
     });
+
+/* When nav option is selected then it stays highlighted */
+$('.nav-link').on('click', function() {
+    $('.nav-link').removeClass('active');
+    $(this).addClass('active');
+});
     
     // Navbar scrolling background 
     wind.on("scroll", function () {

@@ -47,7 +47,23 @@
  45. Responsive (Media Query)
  
 ------------------------------------------------------- */
+.book-online-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Change to your preferred color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    z-index: 9999; /* Add this line */
+}
 
+.book-online-btn:hover {
+    background-color: #0056b3; /* Change to your preferred color */
+}
 
 /* ======= Basic and Typography style ======= */
 
@@ -734,6 +750,11 @@ blockquote cite:before {
 
 
 /* nav style */
+
+.nav-item.active {
+
+    color: #91765a;
+}
 
 .owl-theme .owl-nav {
     position: absolute !important;
